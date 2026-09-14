@@ -4,6 +4,8 @@ title: "Homeserver APIs"
 
 [Homeservers](/explore/pubky-protocol/homeserver/) expose separate APIs for applications and administration. The upstream OpenAPI specifications are the maintained references for endpoints, authentication requirements, request parameters, and response schemas.
 
+<span id="grant-endpoints"></span>
+
 ## Client API
 
 The [client OpenAPI specification](https://github.com/pubky/pubky-homeserver/blob/main/pubky-homeserver/openapi-client.yml) covers application authentication, file storage, and event streams.

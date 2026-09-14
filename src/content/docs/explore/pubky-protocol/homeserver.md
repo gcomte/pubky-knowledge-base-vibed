@@ -18,7 +18,10 @@ Current implementations only support public, unencrypted data. Encrypted data an
 
 ## Event Stream
 
-Homeserver events let clients synchronize data changes and indexers discover content to fetch and process. Use the [client OpenAPI specification](https://github.com/pubky/pubky-homeserver/blob/main/pubky-homeserver/openapi-client.yml) for the available event interfaces and their behavior.
+Homeservers expose event streams for clients to sync data changes:
+
+- `GET /events-stream` — SSE real-time stream with user and path filters. Primary event API, used by clients to subscribe to specific users on third-party homeservers without processing unwanted traffic
+- `GET /events/` — Paginated event feed for all users on the homeserver (cursor-based, 1000 events per batch)
 
 ## Transport Security
 

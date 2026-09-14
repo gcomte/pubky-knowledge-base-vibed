@@ -24,9 +24,9 @@ Apps display a QR code that users scan with [Pubky Ring](/explore/technologies/p
 
 ## Grant Lifecycle
 
-Grants let users authorize individual applications without sharing their identity key. Applications should request only the access they need; broader account-management access belongs in trusted identity or session managers.
+Grant-based signup uses a short-lived root-capability signup grant to create an account without creating a session. Applications then establish sessions with their own scoped grants and can inspect the current grant-backed session's metadata.
 
-For signup, session management, and grant revocation behavior, use the maintained [client OpenAPI specification](https://github.com/pubky/pubky-homeserver/blob/main/pubky-homeserver/openapi-client.yml).
+A session with the exact root capability `/:rw` can list and revoke active grants. This access should be reserved for trusted identity or session managers. Signing out of a grant-backed session revokes its backing grant, and revoking any grant invalidates every bearer session issued from it. See the [API Reference](/explore/pubky-protocol/api/#grant-endpoints) for the raw endpoints.
 
 ## Relay Security
 
