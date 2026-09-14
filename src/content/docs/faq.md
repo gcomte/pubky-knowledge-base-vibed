@@ -140,7 +140,7 @@ Deploy the package/container, configure HTTPS, publish in PKARR.
 
 The default Homeserver hosted by Synonym, used by most Pubky users, provides [**1 GB of storage per user**](https://medium.com/pubky/pubky-invites-a-reputation-gated-onboarding-flow-for-new-users-2428c2e4beea).
 
-Storage limits depend on the Homeserver operator. Ask your provider about its current policy. For self-hosted Homeservers, consult the [admin OpenAPI specification](https://github.com/pubky/pubky-homeserver/blob/main/pubky-homeserver/openapi-admin.yml) for quota management and the [Install Guide](https://github.com/pubky/pubky-homeserver/blob/main/docs/INSTALL.md) for configuration.
+Storage limits depend on the Homeserver operator. Ask your provider about its current policy.
 
 <a id="q25"></a>
 ### Q25. Can Pubky integrate with Tor?
