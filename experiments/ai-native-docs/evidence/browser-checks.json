@@ -1,38 +1,128 @@
 {
   "base": "http://127.0.0.1:4321",
-  "checkedAt": "2026-09-14T16:11:48.800Z",
+  "checkedAt": "2026-09-14T16:59:05.233Z",
   "widths": [
     {
+      "label": "landing with menu open",
       "width": 320,
       "scrollWidth": 320,
       "outside": [],
       "small": []
     },
     {
+      "label": "landing with menu open",
       "width": 390,
       "scrollWidth": 390,
       "outside": [],
       "small": []
     },
     {
+      "label": "landing with menu open",
       "width": 768,
       "scrollWidth": 768,
       "outside": [],
       "small": []
     },
     {
+      "label": "landing with menu open",
       "width": 1050,
       "scrollWidth": 1050,
       "outside": [],
       "small": []
     },
     {
+      "label": "landing with menu open",
       "width": 1280,
       "scrollWidth": 1280,
       "outside": [],
       "small": []
     },
     {
+      "label": "landing with menu open",
+      "width": 1920,
+      "scrollWidth": 1920,
+      "outside": [],
+      "small": []
+    },
+    {
+      "label": "/overview/",
+      "width": 320,
+      "scrollWidth": 320,
+      "outside": [],
+      "small": []
+    },
+    {
+      "label": "/overview/",
+      "width": 390,
+      "scrollWidth": 390,
+      "outside": [],
+      "small": []
+    },
+    {
+      "label": "/overview/",
+      "width": 768,
+      "scrollWidth": 768,
+      "outside": [],
+      "small": []
+    },
+    {
+      "label": "/overview/",
+      "width": 1050,
+      "scrollWidth": 1050,
+      "outside": [],
+      "small": []
+    },
+    {
+      "label": "/overview/",
+      "width": 1280,
+      "scrollWidth": 1280,
+      "outside": [],
+      "small": []
+    },
+    {
+      "label": "/overview/",
+      "width": 1920,
+      "scrollWidth": 1920,
+      "outside": [],
+      "small": []
+    },
+    {
+      "label": "/explore/pubky-protocol/sdk/",
+      "width": 320,
+      "scrollWidth": 320,
+      "outside": [],
+      "small": []
+    },
+    {
+      "label": "/explore/pubky-protocol/sdk/",
+      "width": 390,
+      "scrollWidth": 390,
+      "outside": [],
+      "small": []
+    },
+    {
+      "label": "/explore/pubky-protocol/sdk/",
+      "width": 768,
+      "scrollWidth": 768,
+      "outside": [],
+      "small": []
+    },
+    {
+      "label": "/explore/pubky-protocol/sdk/",
+      "width": 1050,
+      "scrollWidth": 1050,
+      "outside": [],
+      "small": []
+    },
+    {
+      "label": "/explore/pubky-protocol/sdk/",
+      "width": 1280,
+      "scrollWidth": 1280,
+      "outside": [],
+      "small": []
+    },
+    {
+      "label": "/explore/pubky-protocol/sdk/",
       "width": 1920,
       "scrollWidth": 1920,
       "outside": [],
@@ -40,16 +130,20 @@
     }
   ],
   "errors": [],
-  "clipboardSuccess": true,
-  "clipboardFailure": true,
-  "sdkCommands": true,
+  "promptClipboard": true,
+  "sdkTabsAndClipboard": true,
+  "landingClipboardFallback": true,
   "focus": {
     "style": "solid",
     "width": "2px"
   },
-  "localLinks": 26,
+  "menuKeyboard": true,
+  "menuLinksReachable": true,
+  "localLinks": 22,
   "markdownEndpoints": true,
-  "discoveryMetadata": true,
+  "shortTitleActionsBesideTitle": true,
+  "docActionsClipboardAndFallback": true,
+  "homeAnd404Excluded": true,
   "noJavaScript": true,
   "passed": true
 }
