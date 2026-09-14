@@ -30,7 +30,7 @@ Note: [Pubky Docker](/explore/technologies/pubky-docker/)  can run a full [pubky
 git clone https://github.com/pubky/pubky-docker.git && cd pubky-docker && cp .env-sample .env
 ```
 
-Start your Docker engine before continuing. For [Docker Desktop](https://docs.docker.com/desktop/setup/install/mac-install/), open the app; for [Colima](https://colima.run/docs/getting-started/), run:
+Make sure your Docker engine is running. On Linux, [start the daemon](https://docs.docker.com/engine/daemon/start/); with Docker Desktop, open the app. For [Colima](https://colima.run/docs/getting-started/), run:
 
 ```bash
 colima start
