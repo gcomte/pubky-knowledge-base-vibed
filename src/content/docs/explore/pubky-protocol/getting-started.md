@@ -42,6 +42,8 @@ Run the homeserver and testnet via Docker compose:
 docker compose up homeserver -d
 ```
 
+Open [http://localhost:15411/](http://localhost:15411/) (PKARR relay) and [http://localhost:6288/](http://localhost:6288/) (Homeserver admin) in your browser to verify they respond.
+
 You now have a local Pubky testnet ready for app development. An isolated DHT is running, the HTTP relay is local, and the Homeserver publishes its PKARR identity to the local DHT. This means local clients can discover your Homeserver the same way they would on the public network, but everything stays on your machine. Your testnet Homeserver's pubky is always `8pinxxgqs41n4aididenw5apqp1urfmzdztr8jt4abrkdn435ewo`.
 
 :::note[Testnet state is ephemeral]
