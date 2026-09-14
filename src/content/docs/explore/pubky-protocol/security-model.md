@@ -202,7 +202,7 @@ For connections to public-key Homeserver addresses (for example `https://_pubky.
 
 Grants connect a user's approval to a particular app and its permitted access. The app proves possession of its own key to establish a session, keeping the user's identity key out of routine application requests. The [SDK](/explore/pubky-protocol/sdk/) manages this flow.
 
-For grant and session behavior, use the maintained [client OpenAPI specification](https://github.com/pubky/pubky-homeserver/blob/main/pubky-homeserver/openapi-client.yml).
+See [Authentication](/explore/pubky-protocol/authentication/#grant-lifecycle) for signup, sessions, and grant revocation.
 
 ### Capability Scoping
 
