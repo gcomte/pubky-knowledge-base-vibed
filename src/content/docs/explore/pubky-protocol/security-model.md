@@ -194,8 +194,6 @@ For connections to public-key Homeserver addresses (for example `https://_pubky.
 - **Native SDK targets (Rust SDK and native mobile bindings, not browser/WASM)**: Prefer [PubkyTLS](/glossary/#pubkytls) with raw public key verification. If the PKARR record also advertises an ICANN endpoint and the direct endpoint cannot be reached, the SDK automatically falls back to the ICANN endpoint.
 - **WASM/Browser**: Uses standard HTTPS through the ICANN-compatible path (browsers don't support raw public key TLS)
 
-For Pubky resources, pass the Pubky URL or resource to the SDK and let it build the request. The SDK resolves PKARR and chooses PubkyTLS or standard HTTPS for the runtime. Direct HTTP integrations should follow the routing requirements in the [client OpenAPI specification](https://github.com/pubky/pubky-homeserver/blob/main/pubky-homeserver/openapi-client.yml).
-
 **ICANN hosts** (regular domains) use standard HTTPS certificate checks: the certificate must chain to a trusted root and match the requested hostname. On native SDK targets, [PubkyTLS](/glossary/#pubkytls) verifies public-key Homeserver connections directly against the public key from PKARR.
 
 ## Authentication Security
