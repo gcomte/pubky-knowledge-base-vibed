@@ -1,0 +1,55 @@
+{
+  "url": "https://pubky-ai-docs-vibe.vercel.app",
+  "passed": true,
+  "checks": [
+    {
+      "path": "/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "robots": "noindex",
+      "matchesTestedBuild": true
+    },
+    {
+      "path": "/overview/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "robots": "noindex"
+    },
+    {
+      "path": "/explore/pubky-protocol/sdk/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "robots": "noindex"
+    },
+    {
+      "path": "/llms.txt",
+      "status": 200,
+      "contentType": "text/plain; charset=utf-8",
+      "robots": "noindex"
+    },
+    {
+      "path": "/llms-small.txt",
+      "status": 200,
+      "contentType": "text/plain; charset=utf-8",
+      "robots": "noindex"
+    },
+    {
+      "path": "/llms-full.txt",
+      "status": 200,
+      "contentType": "text/plain; charset=utf-8",
+      "robots": "noindex"
+    },
+    {
+      "path": "/explore/pubky-protocol/sdk.md",
+      "status": 200,
+      "contentType": "text/markdown; charset=utf-8",
+      "robots": "noindex"
+    },
+    {
+      "path": "/pubky-vibe-missing-route",
+      "status": 404,
+      "contentType": "text/html; charset=utf-8",
+      "robots": "noindex"
+    }
+  ]
+}

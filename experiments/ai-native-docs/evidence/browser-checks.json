@@ -1,0 +1,55 @@
+{
+  "base": "http://127.0.0.1:4321",
+  "checkedAt": "2026-09-14T16:11:48.800Z",
+  "widths": [
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "outside": [],
+      "small": []
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "outside": [],
+      "small": []
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768,
+      "outside": [],
+      "small": []
+    },
+    {
+      "width": 1050,
+      "scrollWidth": 1050,
+      "outside": [],
+      "small": []
+    },
+    {
+      "width": 1280,
+      "scrollWidth": 1280,
+      "outside": [],
+      "small": []
+    },
+    {
+      "width": 1920,
+      "scrollWidth": 1920,
+      "outside": [],
+      "small": []
+    }
+  ],
+  "errors": [],
+  "clipboardSuccess": true,
+  "clipboardFailure": true,
+  "sdkCommands": true,
+  "focus": {
+    "style": "solid",
+    "width": "2px"
+  },
+  "localLinks": 26,
+  "markdownEndpoints": true,
+  "discoveryMetadata": true,
+  "noJavaScript": true,
+  "passed": true
+}
