@@ -1,111 +1,226 @@
 {
-  "checkedAt": "2026-09-15T16:40:28.143Z",
+  "checkedAt": "2026-09-15T20:13:38.192Z",
   "layouts": [
     {
       "width": 1280,
       "scrollWidth": 1280,
       "watermarkSize": "259.2px",
-      "watermarkColor": "rgba(255, 255, 255, 0.1)",
-      "watermarkPointerEvents": "none",
-      "decorative": true,
+      "watermarkColor": "rgba(255, 255, 255, 0.043)",
       "watermarkCenterOffset": 0,
       "desktopBottomOffset": 0,
+      "headings": [
+        {
+          "text": "Pubky skills",
+          "size": "20px"
+        },
+        {
+          "text": "Context7",
+          "size": "14px"
+        },
+        {
+          "text": "DeepWiki",
+          "size": "14px"
+        }
+      ],
+      "primaryBackground": "rgba(255, 255, 255, 0.043)",
       "sdkCardGap": 24,
-      "oldRobotCount": 0,
-      "oldAnnotationCount": 0,
-      "launcherAnimation": "none"
+      "canvasDecorative": true,
+      "canvasPointerEvents": "none"
     },
     {
       "width": 1050,
       "scrollWidth": 1050,
       "watermarkSize": "259.2px",
-      "watermarkColor": "rgba(255, 255, 255, 0.1)",
-      "watermarkPointerEvents": "none",
-      "decorative": true,
+      "watermarkColor": "rgba(255, 255, 255, 0.043)",
       "watermarkCenterOffset": 0,
       "desktopBottomOffset": 0,
+      "headings": [
+        {
+          "text": "Pubky skills",
+          "size": "20px"
+        },
+        {
+          "text": "Context7",
+          "size": "14px"
+        },
+        {
+          "text": "DeepWiki",
+          "size": "14px"
+        }
+      ],
+      "primaryBackground": "rgba(255, 255, 255, 0.043)",
       "sdkCardGap": 24,
-      "oldRobotCount": 0,
-      "oldAnnotationCount": 0,
-      "launcherAnimation": "none"
+      "canvasDecorative": true,
+      "canvasPointerEvents": "none"
     },
     {
       "width": 390,
       "scrollWidth": 390,
       "watermarkSize": "194.4px",
-      "watermarkColor": "rgba(255, 255, 255, 0.1)",
-      "watermarkPointerEvents": "none",
-      "decorative": true,
+      "watermarkColor": "rgba(255, 255, 255, 0.043)",
       "watermarkCenterOffset": 0,
-      "desktopBottomOffset": -478,
+      "desktopBottomOffset": -524,
+      "headings": [
+        {
+          "text": "Pubky skills",
+          "size": "20px"
+        },
+        {
+          "text": "Context7",
+          "size": "14px"
+        },
+        {
+          "text": "DeepWiki",
+          "size": "14px"
+        }
+      ],
+      "primaryBackground": "rgba(255, 255, 255, 0.043)",
       "sdkCardGap": 24,
-      "oldRobotCount": 0,
-      "oldAnnotationCount": 0,
-      "launcherAnimation": "none"
+      "canvasDecorative": true,
+      "canvasPointerEvents": "none"
     },
     {
       "width": 320,
       "scrollWidth": 320,
       "watermarkSize": "194.4px",
-      "watermarkColor": "rgba(255, 255, 255, 0.1)",
-      "watermarkPointerEvents": "none",
-      "decorative": true,
+      "watermarkColor": "rgba(255, 255, 255, 0.043)",
       "watermarkCenterOffset": 0,
-      "desktopBottomOffset": -478,
+      "desktopBottomOffset": -544,
+      "headings": [
+        {
+          "text": "Pubky skills",
+          "size": "20px"
+        },
+        {
+          "text": "Context7",
+          "size": "14px"
+        },
+        {
+          "text": "DeepWiki",
+          "size": "14px"
+        }
+      ],
+      "primaryBackground": "rgba(255, 255, 255, 0.043)",
       "sdkCardGap": 24,
-      "oldRobotCount": 0,
-      "oldAnnotationCount": 0,
-      "launcherAnimation": "none"
+      "canvasDecorative": true,
+      "canvasPointerEvents": "none"
     }
   ],
-  "motion": [
-    {
-      "time": 0,
-      "meshOpacity": "0.8",
-      "meshClip": "text, text",
-      "lightClip": "text",
-      "lightPosition": "150% 0px"
-    },
-    {
-      "time": 2400,
-      "meshOpacity": "0.8",
-      "meshClip": "text, text",
-      "lightClip": "text",
-      "lightPosition": "73.2352% 0px"
-    },
-    {
-      "time": 4800,
-      "meshOpacity": "0.8",
-      "meshClip": "text, text",
-      "lightClip": "text",
-      "lightPosition": "-50% 0px"
-    },
-    {
-      "time": 6000,
-      "meshOpacity": "0.8",
-      "meshClip": "text, text",
-      "lightClip": "text",
-      "lightPosition": "-50% 0px"
-    }
-  ],
+  "errors": [],
+  "evolvingFrames": true,
   "animations": [
     {
-      "name": "ai-mesh-shimmer",
-      "timing": {
-        "delay": 0,
-        "direction": "normal",
-        "duration": 4800,
-        "easing": "linear",
-        "endDelay": 0,
-        "fill": "both",
-        "iterationStart": 0,
-        "iterations": 1
-      }
+      "name": "ai-mesh-interval",
+      "duration": 12000,
+      "iterations": "Infinity",
+      "playState": "running"
     }
   ],
-  "reducedMotion": {
-    "animations": 0,
-    "meshClip": "text, text",
-    "meshOpacity": "0.8"
-  }
+  "pauseStopsBothEffects": true,
+  "pauseSurvivesViewportChanges": true,
+  "resume": true,
+  "offscreenSuspension": true,
+  "visibilityHandlerSuspends": true,
+  "liveReducedMotion": true,
+  "control": {
+    "label": "Pause motion in the AI lettering",
+    "rect": {
+      "x": 176,
+      "y": 840,
+      "width": 103,
+      "height": 44,
+      "top": 840,
+      "right": 279,
+      "bottom": 884,
+      "left": 176
+    },
+    "outline": "solid",
+    "outlineWidth": "2px"
+  },
+  "keyboardPause": true,
+  "noJavaScriptStaticFallback": true,
+  "noCanvasFallback": true,
+  "passed": true,
+  "normalMotionLayouts": [
+    {
+      "width": 1280,
+      "scrollWidth": 1280,
+      "cardHeight": 374,
+      "desktopBottomOffset": 0,
+      "watermarkCenterOffset": 0,
+      "control": {
+        "x": 1070,
+        "y": 639,
+        "width": 103,
+        "height": 44,
+        "top": 639,
+        "right": 1173,
+        "bottom": 683,
+        "left": 1070
+      },
+      "controlVisible": true,
+      "watermark": "rgba(255, 255, 255, 0.043)",
+      "canvasOpacity": "0.18"
+    },
+    {
+      "width": 1050,
+      "scrollWidth": 1050,
+      "cardHeight": 374,
+      "desktopBottomOffset": 0,
+      "watermarkCenterOffset": 0,
+      "control": {
+        "x": 890,
+        "y": 645,
+        "width": 103,
+        "height": 44,
+        "top": 645,
+        "right": 993,
+        "bottom": 689,
+        "left": 890
+      },
+      "controlVisible": true,
+      "watermark": "rgba(255, 255, 255, 0.043)",
+      "canvasOpacity": "0.18"
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "cardHeight": 374,
+      "desktopBottomOffset": -576,
+      "watermarkCenterOffset": 0,
+      "control": {
+        "x": 246,
+        "y": 1082.59375,
+        "width": 103,
+        "height": 44,
+        "top": 1082.59375,
+        "right": 349,
+        "bottom": 1126.59375,
+        "left": 246
+      },
+      "controlVisible": true,
+      "watermark": "rgba(255, 255, 255, 0.043)",
+      "canvasOpacity": "0.18"
+    },
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "cardHeight": 394,
+      "desktopBottomOffset": -596,
+      "watermarkCenterOffset": 0,
+      "control": {
+        "x": 176,
+        "y": 1129,
+        "width": 103,
+        "height": 44,
+        "top": 1129,
+        "right": 279,
+        "bottom": 1173,
+        "left": 176
+      },
+      "controlVisible": true,
+      "watermark": "rgba(255, 255, 255, 0.043)",
+      "canvasOpacity": "0.18"
+    }
+  ]
 }
