@@ -1,44 +1,44 @@
 {
   "base": "http://127.0.0.1:4321",
-  "checkedAt": "2026-09-14T16:59:05.233Z",
+  "checkedAt": "2026-09-15T10:21:52.561Z",
   "widths": [
     {
-      "label": "landing with menu open",
+      "label": "landing with visible resources and provider icons",
       "width": 320,
       "scrollWidth": 320,
       "outside": [],
       "small": []
     },
     {
-      "label": "landing with menu open",
+      "label": "landing with visible resources and provider icons",
       "width": 390,
       "scrollWidth": 390,
       "outside": [],
       "small": []
     },
     {
-      "label": "landing with menu open",
+      "label": "landing with visible resources and provider icons",
       "width": 768,
       "scrollWidth": 768,
       "outside": [],
       "small": []
     },
     {
-      "label": "landing with menu open",
+      "label": "landing with visible resources and provider icons",
       "width": 1050,
       "scrollWidth": 1050,
       "outside": [],
       "small": []
     },
     {
-      "label": "landing with menu open",
+      "label": "landing with visible resources and provider icons",
       "width": 1280,
       "scrollWidth": 1280,
       "outside": [],
       "small": []
     },
     {
-      "label": "landing with menu open",
+      "label": "landing with visible resources and provider icons",
       "width": 1920,
       "scrollWidth": 1920,
       "outside": [],
@@ -130,6 +130,7 @@
     }
   ],
   "errors": [],
+  "providerLaunchers": true,
   "promptClipboard": true,
   "sdkTabsAndClipboard": true,
   "landingClipboardFallback": true,
@@ -137,8 +138,8 @@
     "style": "solid",
     "width": "2px"
   },
-  "menuKeyboard": true,
-  "menuLinksReachable": true,
+  "resourceLinksKeyboard": true,
+  "resourcesVisibleWithoutDisclosure": true,
   "localLinks": 22,
   "markdownEndpoints": true,
   "shortTitleActionsBesideTitle": true,

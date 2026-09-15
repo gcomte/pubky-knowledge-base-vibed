@@ -1,6 +1,6 @@
 {
   "base": "https://pubky-ai-docs-vibe.vercel.app",
-  "checkedAt": "2026-09-14T17:00:35.251Z",
+  "checkedAt": "2026-09-15T10:23:09.924Z",
   "routes": [
     {
       "path": "/",
@@ -57,6 +57,6 @@
       "robots": "noindex"
     }
   ],
-  "homepageSha256": "656a1feb85677e2039f7386c438323bb0dcb1177358ba86030b01b8a66702ff4",
+  "homepageSha256": "53d1544a76a0e7e494609f16baed0734fecbce2bf2826613cad6d7cd76e2c54c",
   "passed": true
 }
