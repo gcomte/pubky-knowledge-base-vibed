@@ -1,11 +1,11 @@
 {
-  "checkedAt": "2026-09-15T20:13:38.192Z",
+  "checkedAt": "2026-09-15T20:32:04.282Z",
   "layouts": [
     {
       "width": 1280,
       "scrollWidth": 1280,
       "watermarkSize": "259.2px",
-      "watermarkColor": "rgba(255, 255, 255, 0.043)",
+      "watermarkColor": "rgba(0, 0, 0, 0)",
       "watermarkCenterOffset": 0,
       "desktopBottomOffset": 0,
       "headings": [
@@ -31,7 +31,7 @@
       "width": 1050,
       "scrollWidth": 1050,
       "watermarkSize": "259.2px",
-      "watermarkColor": "rgba(255, 255, 255, 0.043)",
+      "watermarkColor": "rgba(0, 0, 0, 0)",
       "watermarkCenterOffset": 0,
       "desktopBottomOffset": 0,
       "headings": [
@@ -57,7 +57,7 @@
       "width": 390,
       "scrollWidth": 390,
       "watermarkSize": "194.4px",
-      "watermarkColor": "rgba(255, 255, 255, 0.043)",
+      "watermarkColor": "rgba(0, 0, 0, 0)",
       "watermarkCenterOffset": 0,
       "desktopBottomOffset": -524,
       "headings": [
@@ -83,7 +83,7 @@
       "width": 320,
       "scrollWidth": 320,
       "watermarkSize": "194.4px",
-      "watermarkColor": "rgba(255, 255, 255, 0.043)",
+      "watermarkColor": "rgba(0, 0, 0, 0)",
       "watermarkCenterOffset": 0,
       "desktopBottomOffset": -544,
       "headings": [
@@ -108,36 +108,30 @@
   ],
   "errors": [],
   "evolvingFrames": true,
-  "animations": [
+  "letterTreatment": {
+    "color": "rgba(0, 0, 0, 0)",
+    "overlayContent": "none",
+    "overlayBackground": "none"
+  },
+  "shimmerSamples": [
     {
-      "name": "ai-mesh-interval",
-      "duration": 12000,
-      "iterations": "Infinity",
-      "playState": "running"
+      "state": "sweeping",
+      "time": 1675.2000000476837
+    },
+    {
+      "state": "resting",
+      "time": 4226.100000143051
+    },
+    {
+      "state": "sweeping",
+      "time": 13674.5
     }
   ],
-  "pauseStopsBothEffects": true,
-  "pauseSurvivesViewportChanges": true,
-  "resume": true,
+  "shimmerPeriodMs": 11999.299999952316,
+  "controlsAbsent": true,
   "offscreenSuspension": true,
   "visibilityHandlerSuspends": true,
   "liveReducedMotion": true,
-  "control": {
-    "label": "Pause motion in the AI lettering",
-    "rect": {
-      "x": 176,
-      "y": 840,
-      "width": 103,
-      "height": 44,
-      "top": 840,
-      "right": 279,
-      "bottom": 884,
-      "left": 176
-    },
-    "outline": "solid",
-    "outlineWidth": "2px"
-  },
-  "keyboardPause": true,
   "noJavaScriptStaticFallback": true,
   "noCanvasFallback": true,
   "passed": true,
@@ -145,82 +139,42 @@
     {
       "width": 1280,
       "scrollWidth": 1280,
-      "cardHeight": 374,
+      "cardHeight": 322,
       "desktopBottomOffset": 0,
       "watermarkCenterOffset": 0,
-      "control": {
-        "x": 1070,
-        "y": 639,
-        "width": 103,
-        "height": 44,
-        "top": 639,
-        "right": 1173,
-        "bottom": 683,
-        "left": 1070
-      },
-      "controlVisible": true,
-      "watermark": "rgba(255, 255, 255, 0.043)",
-      "canvasOpacity": "0.18"
+      "controlCount": 0,
+      "watermark": "rgba(0, 0, 0, 0)",
+      "canvasOpacity": "0.24"
     },
     {
       "width": 1050,
       "scrollWidth": 1050,
-      "cardHeight": 374,
+      "cardHeight": 322,
       "desktopBottomOffset": 0,
       "watermarkCenterOffset": 0,
-      "control": {
-        "x": 890,
-        "y": 645,
-        "width": 103,
-        "height": 44,
-        "top": 645,
-        "right": 993,
-        "bottom": 689,
-        "left": 890
-      },
-      "controlVisible": true,
-      "watermark": "rgba(255, 255, 255, 0.043)",
-      "canvasOpacity": "0.18"
+      "controlCount": 0,
+      "watermark": "rgba(0, 0, 0, 0)",
+      "canvasOpacity": "0.24"
     },
     {
       "width": 390,
       "scrollWidth": 390,
-      "cardHeight": 374,
-      "desktopBottomOffset": -576,
+      "cardHeight": 322,
+      "desktopBottomOffset": -524,
       "watermarkCenterOffset": 0,
-      "control": {
-        "x": 246,
-        "y": 1082.59375,
-        "width": 103,
-        "height": 44,
-        "top": 1082.59375,
-        "right": 349,
-        "bottom": 1126.59375,
-        "left": 246
-      },
-      "controlVisible": true,
-      "watermark": "rgba(255, 255, 255, 0.043)",
-      "canvasOpacity": "0.18"
+      "controlCount": 0,
+      "watermark": "rgba(0, 0, 0, 0)",
+      "canvasOpacity": "0.24"
     },
     {
       "width": 320,
       "scrollWidth": 320,
-      "cardHeight": 394,
-      "desktopBottomOffset": -596,
+      "cardHeight": 342,
+      "desktopBottomOffset": -544,
       "watermarkCenterOffset": 0,
-      "control": {
-        "x": 176,
-        "y": 1129,
-        "width": 103,
-        "height": 44,
-        "top": 1129,
-        "right": 279,
-        "bottom": 1173,
-        "left": 176
-      },
-      "controlVisible": true,
-      "watermark": "rgba(255, 255, 255, 0.043)",
-      "canvasOpacity": "0.18"
+      "controlCount": 0,
+      "watermark": "rgba(0, 0, 0, 0)",
+      "canvasOpacity": "0.24"
     }
   ]
 }
