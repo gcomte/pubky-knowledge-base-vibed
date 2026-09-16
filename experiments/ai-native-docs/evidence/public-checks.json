@@ -1,6 +1,6 @@
 {
   "base": "https://pubky-ai-docs-vibe.vercel.app",
-  "checkedAt": "2026-09-15T20:54:58.719Z",
+  "checkedAt": "2026-09-16T06:33:38.487Z",
   "routes": [
     {
       "path": "/",
@@ -57,14 +57,16 @@
       "robots": "noindex"
     }
   ],
-  "homepageSha256": "766170673d2380e74f9c4af76b77864de8a657aa99940debf0eafa821cb6a4be",
+  "homepageSha256": "f928d270f90025738c03cbd0320cd58cf5bda370d364a1358ac29b246f16ceec",
   "passed": true,
   "liveNetwork": {
     "ready": "true",
     "running": "true",
     "titleSize": "24px",
-    "letterSize": "324px",
+    "letterSize": "291.6px",
     "letterSpacing": "-8px",
+    "rightInset": "16px",
+    "canvasOpacity": "0.34",
     "controlCount": 0,
     "fill": "rgba(0, 0, 0, 0)",
     "overlay": "none"

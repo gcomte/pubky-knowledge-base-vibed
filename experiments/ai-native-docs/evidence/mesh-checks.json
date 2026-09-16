@@ -1,13 +1,15 @@
 {
-  "checkedAt": "2026-09-15T20:52:43.164Z",
+  "checkedAt": "2026-09-16T06:32:40.823Z",
   "layouts": [
     {
       "width": 1280,
       "scrollWidth": 1280,
-      "watermarkSize": "324px",
+      "watermarkSize": "291.6px",
       "watermarkSpacing": "-8px",
+      "watermarkRight": "16px",
+      "canvasOpacity": "0.34",
       "watermarkColor": "rgba(0, 0, 0, 0)",
-      "watermarkCenterOffset": 0,
+      "watermarkCenterOffset": -0.0000152587890625,
       "desktopBottomOffset": 0,
       "headings": [
         {
@@ -31,10 +33,12 @@
     {
       "width": 1050,
       "scrollWidth": 1050,
-      "watermarkSize": "324px",
+      "watermarkSize": "291.6px",
       "watermarkSpacing": "-8px",
+      "watermarkRight": "16px",
+      "canvasOpacity": "0.34",
       "watermarkColor": "rgba(0, 0, 0, 0)",
-      "watermarkCenterOffset": 0,
+      "watermarkCenterOffset": -0.0000152587890625,
       "desktopBottomOffset": 0,
       "headings": [
         {
@@ -58,8 +62,10 @@
     {
       "width": 390,
       "scrollWidth": 390,
-      "watermarkSize": "243px",
+      "watermarkSize": "218.7px",
       "watermarkSpacing": "-8px",
+      "watermarkRight": "16px",
+      "canvasOpacity": "0.34",
       "watermarkColor": "rgba(0, 0, 0, 0)",
       "watermarkCenterOffset": 0,
       "desktopBottomOffset": -550,
@@ -85,8 +91,10 @@
     {
       "width": 320,
       "scrollWidth": 320,
-      "watermarkSize": "243px",
+      "watermarkSize": "218.7px",
       "watermarkSpacing": "-8px",
+      "watermarkRight": "16px",
+      "canvasOpacity": "0.34",
       "watermarkColor": "rgba(0, 0, 0, 0)",
       "watermarkCenterOffset": 0,
       "desktopBottomOffset": -550,
@@ -120,18 +128,18 @@
   "shimmerSamples": [
     {
       "state": "sweeping",
-      "time": 1752.7999999523163
+      "time": 1718.7000000476837
     },
     {
       "state": "resting",
-      "time": 4285.399999856949
+      "time": 4252
     },
     {
       "state": "sweeping",
-      "time": 13718.699999809265
+      "time": 13718
     }
   ],
-  "shimmerPeriodMs": 11965.899999856949,
+  "shimmerPeriodMs": 11999.299999952316,
   "controlsAbsent": true,
   "offscreenSuspension": true,
   "visibilityHandlerSuspends": true,
@@ -145,20 +153,20 @@
       "scrollWidth": 1280,
       "cardHeight": 348,
       "desktopBottomOffset": 0,
-      "watermarkCenterOffset": 0,
+      "watermarkCenterOffset": -0.0000152587890625,
       "controlCount": 0,
       "watermark": "rgba(0, 0, 0, 0)",
-      "canvasOpacity": "0.24"
+      "canvasOpacity": "0.34"
     },
     {
       "width": 1050,
       "scrollWidth": 1050,
       "cardHeight": 348,
       "desktopBottomOffset": 0,
-      "watermarkCenterOffset": 0,
+      "watermarkCenterOffset": -0.0000152587890625,
       "controlCount": 0,
       "watermark": "rgba(0, 0, 0, 0)",
-      "canvasOpacity": "0.24"
+      "canvasOpacity": "0.34"
     },
     {
       "width": 390,
@@ -168,7 +176,7 @@
       "watermarkCenterOffset": 0,
       "controlCount": 0,
       "watermark": "rgba(0, 0, 0, 0)",
-      "canvasOpacity": "0.24"
+      "canvasOpacity": "0.34"
     },
     {
       "width": 320,
@@ -178,7 +186,7 @@
       "watermarkCenterOffset": 0,
       "controlCount": 0,
       "watermark": "rgba(0, 0, 0, 0)",
-      "canvasOpacity": "0.24"
+      "canvasOpacity": "0.34"
     }
   ]
 }
